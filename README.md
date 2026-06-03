@@ -34,7 +34,6 @@ The simulator calculates **page faults**, **hits**, and **hit ratio** for a give
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/<your-username>/VirtualMemorySimulator.git
 cd VirtualMemorySimulator
 
@@ -58,11 +57,25 @@ If you choose the “Compare All” option, a graph image (graph.png) will be ge
 
 Files in the Project
 
+## Files in the Project
+
 main.py — Main program that runs the simulator
 
-fifo.py — FIFO algorithm implementation
+fifo.py — FIFO page replacement algorithm implementation
 
-lru.py — LRU algorithm implementation
+lru.py — LRU page replacement algorithm implementation
+
+optimal.py — Optimal page replacement algorithm implementation
+
+utils.py — Utility functions used across the project
+
+graph.py — Generates graphical comparison of page faults
+
+gui.py — Graphical User Interface (GUI) for interactive simulation and visualization
+
+graph.png — Generated comparison graph output
+
+README.md — Project documentation
 
 optimal.py — Optimal page replacement algorithm
 
